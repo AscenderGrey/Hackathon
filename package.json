@@ -1,0 +1,22 @@
+{
+  "name": "ghostprint-landing",
+  "version": "1.0.0",
+  "description": "Ghostprint: Linköping Alpha Hackathon Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "hackathon",
+    "landing-page",
+    "ghostprint",
+    "tailwind"
+  ],
+  "author": "Ghostprint Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+} 
