@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx live-server --port=3000 --open=/index.html",
     "start": "npx live-server --port=3000 --open=/index.html",
-    "build": "echo 'Static site - no build required'"
+    "build": "if not exist public mkdir public && copy index.html public\\ && echo Build completed - files copied to public directory"
   },
   "keywords": [
     "hackathon",
